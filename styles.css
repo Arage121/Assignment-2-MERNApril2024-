@@ -1,0 +1,27 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.rootDiv{
+   display: grid;
+   grid-template-columns: 40% 40%;
+   justify-content: center;
+   padding: 50px;
+   gap: 40px;
+}
+  
+.cards{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   border: 1px solid lightgray;
+   border-radius: 10px;
+   box-shadow: 1px 2px 10px 1px lightgrey;
+   gap: 10px;
+}
+
+.cards p{
+    text-align: start;
+}
