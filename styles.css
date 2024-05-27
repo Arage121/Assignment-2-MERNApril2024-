@@ -4,17 +4,46 @@
    box-sizing: border-box;
 }
 
+.inputDiv{
+   display: flex;
+   padding: 20px;
+   justify-content: center;
+}
+
+.inputDiv input{
+   border: none;
+   width: 15vw;
+   padding: 12px 20px;
+   box-shadow: 1px 1px 10px 2px lightgray;
+   border-radius: 10px;
+}
+
+.inputDiv input:focus{
+   outline: none;
+}
+
+#search-btn{
+   margin-left: 10px;
+   color: white;
+   background-color: rgb(68, 184, 120);
+   box-shadow: 1px 1px 10px 2px rgb(68, 184, 120);
+   border: none;
+   width: 4vw;
+   border-radius: 10px;
+}
+
 .rootDiv{
    display: grid;
    grid-template-columns: 40% 40%;
+   align-items: center;
    justify-content: center;
    padding: 50px;
    gap: 40px;
 }
   
 .cards{
-   display: flex;
-   flex-direction: column;
+   display: grid;
+   grid-template-columns: auto auto;
    padding: 20px;
    border: 1px solid lightgray;
    border-radius: 10px;
